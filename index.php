@@ -7,7 +7,7 @@
 		<title>旅立ちの扉</title>
 	</head>
 	<body>
-		<a id="test" target="_blank" href="/"><input type="button" value="旅立つ"></a>
+		<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>
 		<script>
 			$(function(){
 				var place = "";
