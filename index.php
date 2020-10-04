@@ -4,6 +4,12 @@
 		<meta charset="utf-8">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+		<script>
+		$.getJSON("spot.json" , function(data) {
+		    alert(data[0][0]);
+		  });
+		</script>
+
 		<title>旅立ちの扉</title>
 	</head>
 	<body>
@@ -18,10 +24,8 @@
 					3: ["東京スカイツリー", "https://www.google.com/maps/@35.7098236,139.8105469,3a,75y,215.81h,68.93t/data=!3m8!1e1!3m6!1sAF1QipOcfXKHDZHVubI9BM-K9tJ5kA-JjEwgsxNz9mf_!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOcfXKHDZHVubI9BM-K9tJ5kA-JjEwgsxNz9mf_%3Dw203-h100-k-no-pi-0-ya224.11057-ro-0-fo100!7i6720!8i3360"],
 
 				};
-*/alert("test");
-$.getJSON("spot.json" , function(data) {
-    alert(data[0][0]);
-  });
+*/
+
 
 				$("#door").click(function() {
 					var random = Math.floor( Math.random() * 4 );
