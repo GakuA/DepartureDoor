@@ -20,7 +20,8 @@
 
 				$("#door").click(function() {
 					var random = Math.floor( Math.random() * 4 );
-					alert(place[random][0]);
+					//alert(place[random][0]);
+					window.open('place[random][1]', '_blank'); // 新しいタブを開き、ページを表示
 
 				});
 
