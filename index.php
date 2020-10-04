@@ -5,9 +5,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 		<script>
+		$(function(){
 		$.getJSON("spot.json" , function(data) {
 		    alert(data[0][0]);
 		  });
+		});
 		</script>
 
 		<title>旅立ちの扉</title>
