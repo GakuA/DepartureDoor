@@ -9,9 +9,10 @@
 	<body>
 		<input id="door" type="button" value="旅立つ">
 		<script>
-		import json
-		with open('spot.json') as f:
-		data = json.load(f)
+		$.getJSON("spot.json", function (data) {
+			var random = Math.floor( Math.random() * 4 );
+			alert(data[random][0]);
+		});
 		</script>
 	</body>
 </html>
