@@ -6,7 +6,7 @@
 
 		<script>
 		$(function(){
-		$.getJSON("/spot.json" , function(data) {
+		$.getJSON("https://departuredoor.herokuapp.com/spot.json" , function(data) {
 		    alert(data[0][0]);
 		  });
 		});
