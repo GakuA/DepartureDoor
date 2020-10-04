@@ -27,7 +27,7 @@
 
 				$("#test").click(function() {
 					var random = Math.floor( Math.random() * 7 );
-					this.attr("href", place[random][1]);
+					$(this).attr("href", place[random][1]);
 				});
 
 
