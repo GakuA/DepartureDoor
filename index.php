@@ -26,7 +26,7 @@
 				});
 
 				$("#test").click(function() {
-					$(this).attr("href") = place[random][1];
+					$("#test").attr("href") = place[random][1];
 				});
 
 
