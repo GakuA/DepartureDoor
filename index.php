@@ -9,7 +9,7 @@
 	<body>
 		<input id="door" type="button" value="旅立つ">
 		<a target="_blank" href="https://www.google.com/maps/@35.7053381,139.7521395,2a,82.7y,323.59h,94.3t/data=!3m6!1e1!3m4!1sJgFRpzWV4XJWSgtPju63Dw!2e0!7i13312!8i6656">test</a>
-		<a target="_blank" href="/"><input id="test" type="button" value="旅立つ"></a>
+		<a id="test" target="_blank" href="/"><input type="button" value="旅立つ"></a>
 		<script>
 			$(function(){
 				var place = "";
