@@ -17,7 +17,7 @@
 				});
 
 				$("#door").click(function() {
-					var random = Math.floor( Math.random() * 7 );
+					var random = Math.floor( Math.random() * 8 );
 					$(this).attr("href", place[random][1]);
 				});
 			});
