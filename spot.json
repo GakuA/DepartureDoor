@@ -1,10 +1,16 @@
 [
 	["札幌時計台", "https://www.google.com/maps/@43.0622817,141.3538434,3a,73.2y,318.29h,90.81t/data=!3m6!1e1!3m4!1scap0fPaqZc8GWQa_kgHs2w!2e0!7i16384!8i8192"],
-	["乙女の滝", "https://www.google.com/maps/@37.0670913,139.9376159,3a,75y,351.41h,96.68t/data=!3m8!1e1!3m6!1sAF1QipMpib9IKZD6PIKJyrNYEl1lg1X9LV7362lTH6Tx!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMpib9IKZD6PIKJyrNYEl1lg1X9LV7362lTH6Tx%3Dw203-h100-k-no-pi-0-ya63.462486-ro-0-fo100!7i5376!8i2688"],
+	["乳頭温泉", "https://www.google.com/maps/@39.7956574,140.7688348,2a,66.5y,356.44h,87.58t/data=!3m6!1e1!3m4!1s6n6ZdWJNSzhe-bLlW02D3g!2e0!7i13312!8i6656"],
 	["東京タワー", "https://www.google.com/maps/@35.6586054,139.7454981,2a,75y,55.26h,68.84t/data=!3m6!1e1!3m4!1sYAEZrAUTYU990cMce2Gy1Q!2e0!7i13312!8i6656"],
 	["東京スカイツリー", "https://www.google.com/maps/@35.7098236,139.8105469,3a,75y,215.81h,61.41t/data=!3m8!1e1!3m6!1sAF1QipOcfXKHDZHVubI9BM-K9tJ5kA-JjEwgsxNz9mf_!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOcfXKHDZHVubI9BM-K9tJ5kA-JjEwgsxNz9mf_%3Dw203-h100-k-no-pi-0-ya224.11057-ro-0-fo100!7i6720!8i3360"],
 	["東京ドーム", "https://www.google.com/maps/@35.7053381,139.7521395,2a,82.7y,321.18h,87.69t/data=!3m6!1e1!3m4!1sJgFRpzWV4XJWSgtPju63Dw!2e0!7i13312!8i6656"],
 	["富士山", "https://www.google.com/maps/@35.3606799,138.7273586,3a,75y,81.93h,71.32t/data=!3m6!1e1!3m4!1sA25IgFy7aGnepc9_6Y70vA!2e0!7i13312!8i6656"],
+	["地獄谷野猿公苑", "https://www.google.com/maps/@36.7326276,138.4621761,2a,75y,76.23h,71.56t/data=!3m6!1e1!3m4!1sBHadJGWsPqW3weiinqmtxw!2e0!7i13312!8i6656"],
 	["星の駅", "https://www.google.com/maps/@34.7341867,135.2073167,3a,75y,197.94h,92.59t/data=!3m8!1e1!3m6!1sAF1QipP2oEbzc1Vng0_DzbWCaud4JYQ0Cvu5BokRLZdg!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP2oEbzc1Vng0_DzbWCaud4JYQ0Cvu5BokRLZdg%3Dw203-h100-k-no-pi0-ya285.37866-ro-0-fo100!7i5376!8i2688"],
+	["奈良公園", "https://www.google.com/maps/@34.6851567,135.8429634,3a,75y,339.36h,88.42t/data=!3m6!1e1!3m4!1sAF1QipP0ks0meF2Y6zvv5lLrn_vlgl0IQTQSKCnhwTmi!2e10!7i6912!8i3456"],
+	["金閣寺", "https://www.google.com/maps/@35.0387086,135.7286314,3a,75y,17.94h,92.51t/data=!3m8!1e1!3m6!1sAF1QipMNkDC3-5oJwRIt9TTDqjrj-I9TVqWqGYtZsuHw!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMNkDC3-5oJwRIt9TTDqjrj-I9TVqWqGYtZsuHw%3Dw203-h100-k-no-pi-0-ya227.27051-ro0-fo100!7i5376!8i2688"],
+	["道頓堀", "https://www.google.com/maps/@34.6691514,135.5013062,3a,75y,217.08h,101.76t/data=!3m6!1e1!3m4!1sZdQrLuluILFIOiQtAhaJWg!2e0!7i13312!8i6656"],
+	["ポートタワー", "https://www.google.com/maps/@34.6820885,135.1871252,3a,90y,329.53h,117.13t/data=!3m6!1e1!3m4!1sIXZrhnVsQhdbKH_EQ2EumQ!2e0!7i16384!8i8192"],
+	["鳥取砂丘", "https://www.google.com/maps/@35.5441604,134.2341758,3a,75y,321.38h,74.23t/data=!3m7!1e1!3m5!1sAF1QipOFaUQFrY2UzCSimkHfUwMsMti2ciAntTudSdV1!2e10!3e11!7i2508!8i1254"],
 	["海底遺跡", "https://www.google.com/maps/@24.4366112,123.0123367,3a,75y,71.99h,78.78t/data=!3m8!1e1!3m6!1sAF1QipNBdfyrqVmP3qxbRaeADL_KzA1IbmkeixuXzp-m!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNBdfyrqVmP3qxbRaeADL_KzA1IbmkeixuXzp-m%3Dw203-h100-k-no-pi-0-ya114.37299-ro-0-fo100!7i11700!8i5850"]
 ]
