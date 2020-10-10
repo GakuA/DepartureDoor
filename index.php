@@ -19,9 +19,9 @@
 				<div id="door">
 					<div class="door_close">
 						<img src="img/door_close.png">
-					</div>
-					<div class="door_open">
-						<img src="img/door_open.png">
+						<div class="door_open">
+							<img src="img/door_open.png">
+						</div>
 					</div>
 				</div>
 			</a>
