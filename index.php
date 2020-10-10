@@ -33,11 +33,24 @@
 				});
 
 				$("#door").mouseover(function() {
-					$(".door_close").hide();
-					$(".door_open").show();
+					$('.door_close').animate(
+						{ display: none },
+						{ duration: '700', easing: "linear" }
+					);
+					$('.door_open').animate(
+						{ display: inline },
+						{ duration: '700', easing: "linear" }
+					);
 				});
 				$("#door").mouseout(function() {
-					$(".door_open").hide();
+					$('.door_open').animate(
+						{ display: none },
+						{ duration: '700', easing: "linear" }
+					);
+					$('.door_close').animate(
+						{ display: "inline" },
+						{ duration: '700', easing: "linear" }
+					);
 					$(".door_close").show();
 				});
 			});
