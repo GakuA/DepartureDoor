@@ -31,6 +31,11 @@
 					var random = Math.floor( Math.random() * 38 );
 					$(this).attr("href", place[random][1]);
 				});
+
+				$("#door").mouseover(function() {
+					$(".door_close").hide();
+					$(".door_open").show();
+				});
 			});
 		</script>
 	</body>
