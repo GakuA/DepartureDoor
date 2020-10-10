@@ -10,7 +10,11 @@
 		<title>旅立ちの扉</title>
 	</head>
 	<body>
-		<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>
+		<!--<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>-->
+
+		<div id="door">
+			<img src="img/door_close.png">
+		</div>
 		<script>
 			$(function(){
 				var place = "";
