@@ -34,7 +34,7 @@
 
 				$("#door").mouseover(function() {
 					$('.door_close').animate(
-						{ display: none },
+						{ display: "none" },
 						{ duration: '700', easing: "linear" }
 					);
 					$('.door_open').animate(
@@ -44,7 +44,7 @@
 				});
 				$("#door").mouseout(function() {
 					$('.door_open').animate(
-						{ display: none },
+						{ display: "none" },
 						{ duration: '700', easing: "linear" }
 					);
 					$('.door_close').animate(
