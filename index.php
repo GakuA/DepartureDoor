@@ -38,7 +38,7 @@
 						{ duration: '700', easing: "linear" }
 					);
 					$('.door_open').animate(
-						{ display: inline },
+						{ display: "inline" },
 						{ duration: '700', easing: "linear" }
 					);
 				});
