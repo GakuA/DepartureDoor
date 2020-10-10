@@ -36,6 +36,10 @@
 					$(".door_close").hide();
 					$(".door_open").show();
 				});
+				$("#door").mouseout(function() {
+					$(".door_open").hide();
+					$(".door_close").show();
+				});
 			});
 		</script>
 	</body>
