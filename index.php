@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="google-site-verification" content="3QuaQCtsYO9KWnRPItMk0t7_q-H5P5n8ZD4LcdcNh2E" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta name="keywords" content="旅立ち,旅行,国内,オンライン旅行,googleマップ">
+		<meta name="keywords" content="旅立ち,旅行,国内,オンライン旅行,googleマップ,どこでもドア">
 		<meta name="description" content="googleストリートビューの日本国内どこかへ繋がる扉。さあ旅立とう。">
 
 		<link rel="stylesheet" href="css/style.css" type="text/css">
