@@ -1,5 +1,11 @@
 [
 	["札幌時計台", "https://www.google.com/maps/@43.0622817,141.3538434,3a,73.2y,318.29h,90.81t/data=!3m6!1e1!3m4!1scap0fPaqZc8GWQa_kgHs2w!2e0!7i16384!8i8192"],
+	["田沢湖", "https://www.google.com/maps/@39.7140164,140.6340869,3a,75y,55.48h,88.57t/data=!3m6!1e1!3m4!1sRyimTCGhWc1Jz4Clsd5sRw!2e0!7i13312!8i6656"],
+	["定禅寺通", "https://www.google.com/maps/@38.2655232,140.8679153,2a,75y,258.53h,97.22t/data=!3m6!1e1!3m4!1sZqVIbivhbekG57-1b6e9Ig!2e0!7i13312!8i6656"],
+	["ユアテックスタジアム仙台", "https://www.google.com/maps/@38.3188374,140.8823639,3a,75y,279.66h,81.1t/data=!3m7!1e1!3m5!1sms4f4jMQP7sqMIMM2jjxAA!2e0!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3Dms4f4jMQP7sqMIMM2jjxAA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D260%26pitch%3D-10%26thumbfov%3D100!7i13312!8i6656"],
+	["銀山温泉", "https://www.google.com/maps/@38.5697179,140.5310492,2a,75y,112.86h,101.05t/data=!3m6!1e1!3m4!1ssp9lZqSSk8upsCZnXvFUrQ!2e0!7i13312!8i6656"],
+	["出羽三山神社", "https://www.google.com/maps/@38.7047323,139.967309,3a,75y,96.64h,112.1t/data=!3m6!1e1!3m4!1sADM_Hr8gHuN-ezlQ3IvnIg!2e0!7i13312!8i6656"],
+	["十六羅漢岩", "https://www.google.com/maps/@39.0733283,139.8681716,3a,75y,346.45h,101.89t/data=!3m6!1e1!3m4!1sAF1QipNMDx3WgwVVeMCHaSXfTKkiLg8fdwOk1QiQhx8x!2e10!7i5376!8i2688"],
 	["AUTO CAFE", "https://www.google.com/maps/place/AUTO+CAFE/@35.7314629,140.0731998,3a,75y,198.73h,76.09t/data=!3m8!1e1!3m6!1sxfIj1GkikJAAAAQvOsRgrg!2e0!3e2!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DxfIj1GkikJAAAAQvOsRgrg%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D193.88235%26pitch%3D0!7i13312!8i6656!4m5!3m4!1s0x0:0x305dd6b40f471213!8m2!3d35.7314223!4d140.0733025"],
 	["グランチェスター", "https://www.google.com/maps/@35.2787735,136.9145498,3a,75y,316.98h,72.53t/data=!3m7!1e1!3m5!1sAF1QipPhelaMZyluxT-TxJMUdIMhIGWEWhv2IwbHUsCJ!2e10!3e12!7i10640!8i5320"],
 	["ときわcafe", "https://www.google.com/maps/@34.717901,137.4957087,3a,75y,233.41h,71.39t/data=!3m7!1e1!3m5!1sAF1QipM2x0nm5LQlsSSMqqD4IliQT6PvMB-lgFlVDjvn!2e10!3e2!7i13312!8i6656"],
