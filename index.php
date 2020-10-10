@@ -15,7 +15,7 @@
 		<!--<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>-->
 
 		<div>
-			<a target="_blank" href="/">
+			<a id="departure" target="_blank" href="/">
 				<div id="door">
 					<div class="door_close">
 						<img src="img/door_close.png">
@@ -33,7 +33,7 @@
 					place = data;
 				});
 
-				$("#door").click(function() {
+				$("#departure").click(function() {
 					var random = Math.floor( Math.random() * 38 );
 					$(this).attr("href", place[random][1]);
 				});
