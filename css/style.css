@@ -1,3 +1,7 @@
+body {
+	overflow: hidden;
+}
+
 #door {
 	position: absolute;
 	left: calc(50% - 100px);
