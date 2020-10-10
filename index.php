@@ -12,8 +12,11 @@
 	<body>
 		<!--<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>-->
 
-		<div id="door">
-			<img src="img/door_close.png">
+		<div>
+			<a id="door" target="_blank" href="/">
+				<img class="door_close" src="img/door_close.png">
+				<img class="door_open" src="img/door_open.png">
+			</a>
 		</div>
 		<script>
 			$(function(){

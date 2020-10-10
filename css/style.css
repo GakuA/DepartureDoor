@@ -1,0 +1,15 @@
+#door img {
+	width: 200px;
+}
+
+.door_close:hover {
+	display: none;
+}
+
+.door_open {
+	display: none;
+}
+
+.door_open:hover {
+	display: block;
+}
