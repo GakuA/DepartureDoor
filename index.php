@@ -37,20 +37,6 @@
 					var random = Math.floor( Math.random() * 38 );
 					$(this).attr("href", place[random][1]);
 				});
-/*
-				$("#door").mouseover(function() {
-					$('.door_open').animate(
-						{ opacity: "1" },
-						{ duration: "700", easing: "linear" }
-					);
-				});
-				$("#door").mouseout(function() {
-					$('.door_open').animate(
-						{ opacity: "0" },
-						{ duration: "700", easing: "linear" }
-					);
-				});
-				*/
 			});
 		</script>
 	</body>
