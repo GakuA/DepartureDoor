@@ -1,7 +1,19 @@
+#door {
+	position: absolute;
+	left: calc(50% - 100px);
+	top: calc(50% - 288px);
+}
+
 #door img {
 	width: 200px;
 }
 
 .door_open {
-	display: none;
+	top: 0;
+	opacity: 0;
+	transition: 0.7s;
+}
+
+.door_open:hover {
+	opacity: 1;
 }

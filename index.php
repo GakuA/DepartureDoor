@@ -37,28 +37,20 @@
 					var random = Math.floor( Math.random() * 38 );
 					$(this).attr("href", place[random][1]);
 				});
-
+/*
 				$("#door").mouseover(function() {
-					$('.door_close').animate(
-						{ display: "none" },
-						{ duration: '700', easing: "linear" }
-					);
 					$('.door_open').animate(
-						{ display: "inline" },
-						{ duration: '700', easing: "linear" }
+						{ opacity: "1" },
+						{ duration: "700", easing: "linear" }
 					);
 				});
 				$("#door").mouseout(function() {
 					$('.door_open').animate(
-						{ display: "none" },
-						{ duration: '700', easing: "linear" }
+						{ opacity: "0" },
+						{ duration: "700", easing: "linear" }
 					);
-					$('.door_close').animate(
-						{ display: "inline" },
-						{ duration: '700', easing: "linear" }
-					);
-					$(".door_close").show();
 				});
+				*/
 			});
 		</script>
 	</body>
