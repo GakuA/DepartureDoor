@@ -36,7 +36,7 @@
 				});
 
 				$("#departure").click(function() {
-					var random = Math.floor( Math.random() * 69 );
+					var random = Math.floor( Math.random() * 73 );
 					$(this).attr("href", place[random][1]);
 				});
 			});
