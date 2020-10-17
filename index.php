@@ -36,13 +36,19 @@
 					if(!arrSpot || arrSpot.length == 0) {
 						$.getJSON("spot.json" , function(data) {
 							arrSpot = data;
+							var random = Math.floor( Math.random() * arrSpot.length );
+							var url = arrSpot[random][1];
+							arrSpot.splice(random, 1);
+							localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
+							$(this).attr("href", url);
 						});
+					} else {
+						var random = Math.floor( Math.random() * arrSpot.length );
+						var url = arrSpot[random][1];
+						arrSpot.splice(random, 1);
+						localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
+						$(this).attr("href", url);
 					}
-					var random = Math.floor( Math.random() * arrSpot.length );
-					var url = arrSpot[random][1];
-					arrSpot.splice(random, 1);
-					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
-					$(this).attr("href", url);
 				});
 			});
 		</script>
