@@ -30,14 +30,20 @@
 		</div>
 		<script>
 			$(function(){
-				var place = "";
-				$.getJSON("spot.json" , function(data) {
-					place = data;
-				});
+				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
+
+				if(!arrSpot || arrSpot.length == 0) {
+					$.getJSON("spot.json" , function(data) {
+						arrSpot = data;
+					});
+				}
 
 				$("#departure").click(function() {
-					var random = Math.floor( Math.random() * 73 );
-					$(this).attr("href", place[random][1]);
+					var random = Math.floor( Math.random() * arrSpot.length );
+					var url = arrSpot[random][1];
+					arrSpot.splice(random, 1);
+					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
+					$(this).attr("href", url);
 				});
 			});
 		</script>
