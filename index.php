@@ -28,6 +28,7 @@
 				</div>
 			</a>
 		</div>
+		<script type="text/javascript">rakuten_design="slide";rakuten_affiliateId="142a8617.af4bd4b0.142a8618.1730d9f1";rakuten_items="tra-ranking";rakuten_genreId="tra-allzenkoku";rakuten_size="728x90";rakuten_target="_blank";rakuten_theme="gray";rakuten_border="on";rakuten_auto_mode="on";rakuten_genre_title="off";rakuten_recommend="on";rakuten_ts="1603199375396";</script><script type="text/javascript" src="https://xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget_travel.js"></script>
 		<script>
 			$(function(){
 				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
