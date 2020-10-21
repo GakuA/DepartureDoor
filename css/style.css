@@ -29,7 +29,7 @@ body {
 	}
 }
 
-@media screen and (max-width:100px) {
+@media screen and (max-width:160px) {
 	#door {
 		display: none!important;
 	}
