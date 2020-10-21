@@ -28,3 +28,9 @@ body {
 		display: none!important;
 	}
 }
+
+@media screen and (max-width:100px) {
+	#door {
+		display: none!important;
+	}
+}
