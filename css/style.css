@@ -24,13 +24,7 @@ body {
 }
 
 @media screen and (max-width:456px) {
-	.rakuten_motionWidget {
-		display: none!important;
-	}
-}
-
-@media screen and (max-width:160px) {
-	#door {
+	#rakuten {
 		display: none!important;
 	}
 }
