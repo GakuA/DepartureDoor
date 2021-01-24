@@ -16,6 +16,13 @@
 		<meta name="keywords" content="旅立ち,旅行,国内,オンライン旅行,googleマップ,どこでもドア">
 		<meta name="description" content="googleストリートビューの日本国内どこかへ繋がる扉。さあ旅立とう。">
 
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@gackey" />
+		<meta property="og:url" content="https://departuredoor.herokuapp.com/" />
+		<meta property="og:title" content="旅立ちの扉" />
+		<meta property="og:description" content="googleストリートビューの日本国内どこかへ繋がる扉。" />
+		<meta property="og:image" content="https://departuredoor.herokuapp.com/img/door_twitter.jpg" />
+
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
