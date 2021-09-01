@@ -23,7 +23,7 @@ body {
 	opacity: 1;
 }
 
-@media screen and (max-width:456px) {
+@media screen and (max-width:496px) {
 	#rakuten {
 		display: none!important;
 	}
