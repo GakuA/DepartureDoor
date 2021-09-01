@@ -23,6 +23,14 @@ body {
 	opacity: 1;
 }
 
+#words {
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	width: 200px;
+	color: #000;
+}
+
 @media screen and (max-width:534px) {
 	#rakuten {
 		display: none!important;
