@@ -41,7 +41,7 @@
 					<div class="door_open">
 						<img src="img/door_open.png">
 					</div>
-					<div id="words">扉を開いて、旅立とう</div>
+					<div id="words">扉を開いて、旅に出よう</div>
 				</div>
 			</a>
 		</div>
