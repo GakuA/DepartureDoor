@@ -70,3 +70,7 @@
 		</script>
 	</body>
 </html>
+
+<!--
+akazawagaku@gmail.com
+-->
