@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--
+mail me
+akazawagaku@gmail.com
+-->
 <html>
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -70,8 +74,3 @@
 		</script>
 	</body>
 </html>
-
-<!--
-mail me
-akazawagaku@gmail.com
--->
