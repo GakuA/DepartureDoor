@@ -23,7 +23,7 @@ akazawagaku@gmail.com
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@gackey" />
 		<meta property="og:url" content="https://departuredoor.herokuapp.com" />
-		<meta property="og:title" content="旅立ちの扉" />
+		<meta property="og:title" content="扉の向こうは日本のどこか" />
 		<meta property="og:description" content="googleストリートビューの日本国内どこかへ繋がる扉。" />
 		<meta property="og:image" content="https://departuredoor.herokuapp.com/img/door_twitter.jpg" />
 
