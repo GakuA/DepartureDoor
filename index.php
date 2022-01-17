@@ -73,6 +73,15 @@ akazawagaku@gmail.com
 						//$(".door_open").css({"opacity" : "0"});
 					},1000);
 				});
+
+				$(".door_open").hover(
+					function () {
+						$(this).addClass("hover");
+					},
+					function () {
+						$(this).addClass("hover");
+					}
+				);
 			});
 		</script>
 	</body>
