@@ -79,7 +79,7 @@ akazawagaku@gmail.com
 						$(this).addClass("hover");
 					},
 					function () {
-						$(this).addClass("hover");
+						$(this).removeClass("hover");
 					}
 				);
 			});
