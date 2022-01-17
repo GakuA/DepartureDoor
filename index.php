@@ -70,7 +70,7 @@ akazawagaku@gmail.com
 					$(this).attr("href", url);
 					//location.reload();
 					setTimeout(function(){
-						//$(".door_open").css({"opacity" : "0"});
+						$(".door_open").removeClass("hover");
 					},1000);
 				});
 

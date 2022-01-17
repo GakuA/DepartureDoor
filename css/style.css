@@ -19,10 +19,6 @@ body {
 	transition: 0.7s;
 }
 
-.door_open:hover {
-	opacity: 1;
-}
-
 .door_open.hover {
 	opacity: 1;
 }
