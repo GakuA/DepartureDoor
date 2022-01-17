@@ -69,6 +69,7 @@ akazawagaku@gmail.com
 					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
 					$(this).attr("href", url);
 					//location.reload();
+					$(".door_open").css({"opacity" : "0"});
 				});
 			});
 		</script>
