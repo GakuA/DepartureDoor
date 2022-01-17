@@ -23,6 +23,10 @@ body {
 	opacity: 1;
 }
 
+.door_open.hover {
+	opacity: 1;
+}
+
 #words {
 	position: absolute;
 	top: 10px;
