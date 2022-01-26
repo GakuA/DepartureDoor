@@ -54,6 +54,8 @@ akazawagaku@gmail.com
 		</div>
 		<script>
 			$(function(){
+				var callBackSleepCount = 30;
+				var CallBackSleep = 100;
 				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
 
 				$("#departure").click(function() {
@@ -61,6 +63,13 @@ akazawagaku@gmail.com
 						$.getJSON("spot.json" , function(data) {
 							arrSpot = data;
 						});
+					}
+
+					var count = 0;
+					while (arrSpot.length == 0 || count < callBackSleepCount) {
+						setTimeout(function(){
+							count ++;
+						}, CallBackSleep);
 					}
 
 					var random = Math.floor( Math.random() * arrSpot.length );
