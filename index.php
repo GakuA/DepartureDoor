@@ -37,7 +37,7 @@ akazawagaku@gmail.com
 		<!--<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>-->
 
 		<div>
-			<a id="departure" target="_blank" href="/">
+			<a id="departure">
 				<div id="door">
 					<div class="door_close">
 						<img src="img/door_close.png">
@@ -55,6 +55,11 @@ akazawagaku@gmail.com
 		<script>
 			$(function(){
 				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
+				if(!arrSpot || arrSpot.length == 0) {
+					$.getJSON("spot.json" , function(data) {
+						arrSpot = data;
+					});
+				}
 
 				$("#departure").click(function() {
 					if(!arrSpot || arrSpot.length == 0) {
@@ -67,7 +72,8 @@ akazawagaku@gmail.com
 					var url = arrSpot[random][1];
 					arrSpot.splice(random, 1);
 					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
-					$(this).attr("href", url);
+					window.open(url, "_blank")
+					//$(this).attr("href", url);
 					//location.reload();
 					setTimeout(function(){
 						$(".door_open").removeClass("hover");
@@ -82,10 +88,6 @@ akazawagaku@gmail.com
 						$(this).removeClass("hover");
 					}
 				);
-
-				goMap => {
-
-				}
 			});
 		</script>
 	</body>
