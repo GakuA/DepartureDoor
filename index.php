@@ -60,12 +60,15 @@ akazawagaku@gmail.com
 					if(!arrSpot || arrSpot.length == 0) {
 						$.getJSON("spot.json" , function(data) {
 							arrSpot = data;
-							goMap();
 						});
-					} else {
-						goMap();
 					}
 
+					var random = Math.floor( Math.random() * arrSpot.length );
+					var url = arrSpot[random][1];
+					arrSpot.splice(random, 1);
+					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
+					$(this).attr("href", url);
+					//location.reload();
 					setTimeout(function(){
 						$(".door_open").removeClass("hover");
 					},1000);
@@ -80,13 +83,8 @@ akazawagaku@gmail.com
 					}
 				);
 
-				function goMap() {
-					var random = Math.floor( Math.random() * arrSpot.length );
-					var url = arrSpot[random][1];
-					arrSpot.splice(random, 1);
-					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
-					$(this).attr("href", url);
-					//location.reload();
+				goMap => {
+
 				}
 			});
 		</script>
