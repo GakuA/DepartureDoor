@@ -98,7 +98,6 @@ akazawagaku@gmail.com
 					window.open(url, "_blank")
 					//$(this).attr("href", url);
 					//location.reload();
-<<<<<<< HEAD
 					setTimeout(function(){
 						$(".door_open").removeClass("hover");
 					},1000);
@@ -112,9 +111,6 @@ akazawagaku@gmail.com
 						$(this).removeClass("hover");
 					}
 				);
-=======
-				}
->>>>>>> ed1b71def7e3710a230e674733549a56e7dd88dd
 			});
 		</script>
 	</body>
