@@ -19,8 +19,8 @@ body {
 	transition: 0.7s;
 }
 
-.door_open:hover {
-	opacity: 1 !important;
+.door_open.hover {
+	opacity: 1;
 }
 
 #words {

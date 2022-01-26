@@ -66,13 +66,27 @@ akazawagaku@gmail.com
 					var random = Math.floor( Math.random() * arrSpot.length );
 					var url = arrSpot[random][1];
 					arrSpot.splice(random, 1);
+					if (arrSpot.length == 0) {
+						$.getJSON("spot.json" , function(data) {
+							arrSpot = data;
+						});
+					}
 					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
 					$(this).attr("href", url);
 					//location.reload();
 					setTimeout(function(){
-						$(".door_open").css({"opacity" : "0"});
+						$(".door_open").removeClass("hover");
 					},1000);
 				});
+
+				$(".door_open").hover(
+					function () {
+						$(this).addClass("hover");
+					},
+					function () {
+						$(this).removeClass("hover");
+					}
+				);
 			});
 		</script>
 	</body>
