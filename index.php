@@ -54,29 +54,18 @@ akazawagaku@gmail.com
 		</div>
 		<script>
 			$(function(){
-				var callBackSleepCount = 30;
-				var callBackSleep = 100;
 				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
 
 				$("#departure").click(function() {
 					if(!arrSpot || arrSpot.length == 0) {
 						$.getJSON("spot.json" , function(data) {
 							arrSpot = data;
+							goMap();
 						});
+					} else {
+						goMap();
 					}
-
-					var count = 0;
-					while ((!arrSpot || arrSpot.length == 0) && count < callBackSleepCount) {
-						//sleep(callBackSleep);
-						count ++;
-					}
-
-					var random = Math.floor( Math.random() * arrSpot.length );
-					var url = arrSpot[random][1];
-					arrSpot.splice(random, 1);
-					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
-					$(this).attr("href", url);
-					//location.reload();
+					
 					setTimeout(function(){
 						$(".door_open").removeClass("hover");
 					},1000);
@@ -90,6 +79,15 @@ akazawagaku@gmail.com
 						$(this).removeClass("hover");
 					}
 				);
+
+				goMap => {
+					var random = Math.floor( Math.random() * arrSpot.length );
+					var url = arrSpot[random][1];
+					arrSpot.splice(random, 1);
+					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
+					$(this).attr("href", url);
+					//location.reload();
+				}
 			});
 		</script>
 	</body>
