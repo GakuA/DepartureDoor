@@ -55,7 +55,7 @@ akazawagaku@gmail.com
 		<script>
 			$(function(){
 				var callBackSleepCount = 30;
-				var CallBackSleep = 100;
+				var callBackSleep = 100;
 				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
 
 				$("#departure").click(function() {
