@@ -37,7 +37,7 @@ akazawagaku@gmail.com
 		<!--<a id="door" target="_blank" href="/"><input type="button" value="旅立つ"></a>-->
 
 		<div>
-			<a id="departure">
+			<a id="departure" target="_blank" href="/">
 				<div id="door">
 					<div class="door_close">
 						<img src="img/door_close.png">
@@ -55,6 +55,7 @@ akazawagaku@gmail.com
 		<script>
 			$(function(){
 				window.arrSpot = JSON.parse(localStorage.getItem("arrSpot"));
+
 				if(!arrSpot || arrSpot.length == 0) {
 					$.getJSON("spot.json" , function(data) {
 						arrSpot = data;
@@ -62,30 +63,6 @@ akazawagaku@gmail.com
 				}
 
 				$("#departure").click(function() {
-					if(!arrSpot || arrSpot.length == 0) {
-						$.getJSON("spot.json" , function(data) {
-							arrSpot = data;
-							goMap();
-						});
-					} else {
-						goMap();
-					}
-
-					setTimeout(function(){
-						$(".door_open").removeClass("hover");
-					},1000);
-				});
-
-				$(".door_open").hover(
-					function () {
-						$(this).addClass("hover");
-					},
-					function () {
-						$(this).removeClass("hover");
-					}
-				);
-
-				var goMap = () => {
 					var random = Math.floor( Math.random() * arrSpot.length );
 					var url = arrSpot[random][1];
 					arrSpot.splice(random, 1);
@@ -95,10 +72,8 @@ akazawagaku@gmail.com
 						});
 					}
 					localStorage.setItem("arrSpot", JSON.stringify(arrSpot));
-					window.open(url, "_blank")
-					//$(this).attr("href", url);
+					$(this).attr("href", url);
 					//location.reload();
-<<<<<<< HEAD
 					setTimeout(function(){
 						$(".door_open").removeClass("hover");
 					},1000);
@@ -112,9 +87,6 @@ akazawagaku@gmail.com
 						$(this).removeClass("hover");
 					}
 				);
-=======
-				}
->>>>>>> ed1b71def7e3710a230e674733549a56e7dd88dd
 			});
 		</script>
 	</body>
