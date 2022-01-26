@@ -65,7 +65,7 @@ akazawagaku@gmail.com
 					} else {
 						goMap();
 					}
-					
+
 					setTimeout(function(){
 						$(".door_open").removeClass("hover");
 					},1000);
@@ -80,7 +80,7 @@ akazawagaku@gmail.com
 					}
 				);
 
-				goMap => {
+				function goMap() {
 					var random = Math.floor( Math.random() * arrSpot.length );
 					var url = arrSpot[random][1];
 					arrSpot.splice(random, 1);
