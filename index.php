@@ -66,10 +66,9 @@ akazawagaku@gmail.com
 					}
 
 					var count = 0;
-					while (arrSpot.length == 0 || count < callBackSleepCount) {
-						setTimeout(function(){
-							count ++;
-						}, CallBackSleep);
+					while (!arrSpot || arrSpot.length == 0 || count < callBackSleepCount) {
+						sleep(callBackSleep)
+						count ++;
 					}
 
 					var random = Math.floor( Math.random() * arrSpot.length );
