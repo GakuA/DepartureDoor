@@ -67,7 +67,7 @@ akazawagaku@gmail.com
 
 					var count = 0;
 					while (!arrSpot || arrSpot.length == 0 || count < callBackSleepCount) {
-						sleep(callBackSleep);
+						//sleep(callBackSleep);
 						count ++;
 					}
 
